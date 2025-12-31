@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>E-Portfolio | Charisse Kaye G. Reyes</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3a8a, #4f46e5);
+    color: white;
+}
+
+/* Slide container */
+.slide {
+    height: 100vh;
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/* Card style */
+.card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 35px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #e0e7ff;
+}
+
+/* Text */
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Avatar */
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: white;
+    color: #4f46e5;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<main>
+
+<!-- SLIDE 1 -->
+<section class="slide">
+    <div class="card">
+        <div class="avatar">CR</div>
+        <h1>Charisse Kaye G. Reyes</h1>
+        <p><strong>Student | Future Professional</strong></p>
+        <p>Philippines</p>
+    </div>
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide">
+    <div class="card">
+        <h2>Professional Profile</h2>
+        <p>
+            I am Charisse Kaye G. Reyes, a motivated and responsible student from the
+            Philippines. This e-portfolio is a compilation of my academic and
+            professional materials that exemplifies my beliefs, skills,
+            qualifications, education, training, and experiences.
+        </p>
+    </div>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide">
+    <div class="card">
+        <h2>Personal Details</h2>
+        <div class="grid">
+            <p><strong>Full Name:</strong> Charisse Kaye G. Reyes</p>
+            <p><strong>Status:</strong> Student</p>
+            <p><strong>Nationality:</strong> Filipino</p>
+            <p><strong>Location:</strong> Philippines</p>
+            <p><strong>Email:</strong> charissekayereyes@gmail.com</p>
+            <p><strong>Academic Year:</strong> 2025–2026</p>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 4 -->
+<section class="slide">
+    <div class="card">
+        <h2>Core Values & Beliefs</h2>
+        <ul>
+            <li>Integrity and honesty</li>
+            <li>Commitment to learning</li>
+            <li>Responsibility and discipline</li>
+            <li>Respect and professionalism</li>
+        </ul>
+    </div>
+</section>
+
+<!-- SLIDE 5 -->
+<section class="slide">
+    <div class="card">
+        <h2>Skills & Competencies</h2>
+        <div class="grid">
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Time management</li>
+                    <li>Problem-solving</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Basic computer skills</li>
+                    <li>MS Word & PowerPoint</li>
+                    <li>Basic HTML & CSS</li>
+                    <li>Online research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 6 -->
+<section class="slide">
+    <div class="card">
+        <h2>Education</h2>
+        <p><strong>Course / Program:</strong> (BS Computer Science)</p>
+        <p><strong>School:</strong> (Sultan Kudarat State University)</p>
+        <p><strong>Year Level:</strong> (1st year)</p>
+    </div>
+</section>
+
+<!-- SLIDE 7 -->
+<section class="slide">
+    <div class="card">
+        <h2>Projects & Experiences</h2>
+        <p><strong>Academic Projects</strong></p>
+        <p>
+            <strong>Description:</strong> Completed academic reports, research
+            activities, and presentations.
+        </p>
+        <p>
+            <strong>Skills Used:</strong> Research, Writing, Critical Thinking,
+            Time Management
+        </p>
+    </div>
+</section>
+
+<!-- SLIDE 8 -->
+<section class="slide">
+    <div class="card">
+        <h2>Career Goals</h2>
+        <p>
+            My goal is to continuously develop my skills and knowledge to become a
+            competent and responsible professional who contributes positively to
+            society and the workplace.
+        </p>
+    </div>
+</section>
+
+</main>
+
+</body>
+</html>
